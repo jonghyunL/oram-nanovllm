@@ -33,7 +33,6 @@ class ModelRunner:
         torch.set_default_dtype(torch.bfloat16)
         torch.set_default_device("cuda")
          
-        # LJH Choose model
         self.model_type = hf_config.model_type
         # print(self.model_type)
         # print(hf_config)

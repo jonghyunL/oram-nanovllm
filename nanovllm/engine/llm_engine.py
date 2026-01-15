@@ -35,7 +35,6 @@ class LLMEngine:
         self.scheduler = Scheduler(config)
         atexit.register(self.exit)
 
-        # LJH mod
         self.prefill_duration = 0.0
         self.prefill_num_tok = 0
         self.decode_duration = 0.0
